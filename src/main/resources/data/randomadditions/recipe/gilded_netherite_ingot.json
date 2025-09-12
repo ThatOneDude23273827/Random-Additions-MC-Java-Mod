@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "G": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "GGG",
+    "GNG",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "randomadditions:gilded_netherite_ingot"
+  }
+}

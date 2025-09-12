@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      "#minecraft:planks",
+      "minecraft:light_gray_dye"
+    ],
+    "result": {
+        "count": 1,
+        "id": "randomadditions:dyed_planks_lightgray"
+    }
+}

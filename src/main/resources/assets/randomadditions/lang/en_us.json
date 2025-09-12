@@ -1,3 +1,23 @@
 {
-  "item.randomadditions.gilded_netherite_ingot": "Gilded Netherite Ingot"
+  "item.randomadditions.gilded_netherite_ingot": "Gilded Netherite Ingot",
+
+  "block.randomadditions.gilded_netherite_block": "Gilded Netherite Block",
+  "block.randomadditions.dyed_planks_black": "Black Dyed Planks",
+  "block.randomadditions.dyed_planks_blue": "Blue Dyed Planks",
+  "block.randomadditions.dyed_planks_brown": "Brown Dyed Planks",
+  "block.randomadditions.dyed_planks_cyan": "Cyan Dyed Planks",
+  "block.randomadditions.dyed_planks_gray": "Grey Dyed Planks",
+  "block.randomadditions.dyed_planks_green": "Green Dyed Planks",
+  "block.randomadditions.dyed_planks_lightblue": "Light Blue Dyed Planks",
+  "block.randomadditions.dyed_planks_lightgray": "Light Grey Dyed Planks",
+  "block.randomadditions.dyed_planks_lime": "Lime Dyed Planks",
+  "block.randomadditions.dyed_planks_magenta": "Magenta Dyed Planks",
+  "block.randomadditions.dyed_planks_orange": "Orange Dyed Planks",
+  "block.randomadditions.dyed_planks_pink": "Pink Dyed Planks",
+  "block.randomadditions.dyed_planks_purple": "Purple Dyed Planks",
+  "block.randomadditions.dyed_planks_red": "Red Dyed Planks",
+  "block.randomadditions.dyed_planks_white": "White Dyed Planks",
+  "block.randomadditions.dyed_planks_yellow": "Yellow Dyed Planks",
+
+  "creativetab.randomadditions.all": "Random Additions"
 }
