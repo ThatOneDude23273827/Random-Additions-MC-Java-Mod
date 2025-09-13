@@ -1,6 +1,9 @@
 {
   "item.randomadditions.gilded_netherite_ingot": "Gilded Netherite Ingot",
   "item.randomadditions.taco": "Taco",
+  "item.randomadditions.copper_coin": "Copper Coin",
+  "item.randomadditions.gold": "Gold Coin",
+  "item.randomadditions.diamond_coin": "Diamond Coin",
 
   "block.randomadditions.gilded_netherite_block": "Gilded Netherite Block",
   "block.randomadditions.dyed_planks_black": "Black Dyed Planks",

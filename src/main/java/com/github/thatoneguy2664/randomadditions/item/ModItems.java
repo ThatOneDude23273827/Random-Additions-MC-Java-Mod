@@ -26,6 +26,24 @@ public class ModItems {
             new Item.Properties());
 
     // END MATERIALS
+    // MISC
+
+    public static final DeferredItem<Item> COPPER_COIN = ITEMS.registerItem(
+            "copper_coin",
+            Item::new,
+            new Item.Properties());
+
+    public static final DeferredItem<Item> GOLD_COIN = ITEMS.registerItem(
+            "gold_coin",
+            Item::new,
+            new Item.Properties());
+
+    public static final DeferredItem<Item> DIAMOND_COIN = ITEMS.registerItem(
+            "diamond_coin",
+            Item::new,
+            new Item.Properties());
+
+    // END MISC
     // FOOD
 
     public static final DeferredItem<Item> TACO = ITEMS.registerItem(
@@ -44,7 +62,7 @@ public class ModItems {
                             .hasConsumeParticles(true)
                             .onConsume(new ApplyStatusEffectsConsumeEffect(
                                     new MobEffectInstance(
-                                            MobEffects.REGENERATION, 60, 0), 0.9735f))
+                                            MobEffects.REGENERATION, 60, 0), 0.97f))
                             .build())
     );
 

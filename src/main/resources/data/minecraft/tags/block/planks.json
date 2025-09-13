@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "randomadditions:dyed_planks_black",
+    "randomadditions:dyed_planks_blue",
+    "randomadditions:dyed_planks_brown",
+    "randomadditions:dyed_planks_cyan",
+    "randomadditions:dyed_planks_gray",
+    "randomadditions:dyed_planks_green",
+    "randomadditions:dyed_planks_lightblue",
+    "randomadditions:dyed_planks_lightgray",
+    "randomadditions:dyed_planks_lime",
+    "randomadditions:dyed_planks_magenta",
+    "randomadditions:dyed_planks_orange",
+    "randomadditions:dyed_planks_pink",
+    "randomadditions:dyed_planks_purple",
+    "randomadditions:dyed_planks_red",
+    "randomadditions:dyed_planks_white",
+    "randomadditions:dyed_planks_yellow"
+  ]
+}

@@ -41,6 +41,9 @@ public class ModCreativeModeTab {
                         output.accept(ModBlocks.DYED_PLANKS_YELLOW);
                         output.accept(ModBlocks.CRACKED_STONE);
                         output.accept(ModItems.TACO);
+                        output.accept(ModItems.COPPER_COIN);
+                        output.accept(ModItems.GOLD_COIN);
+                        output.accept(ModItems.DIAMOND_COIN);
                     }).build());
 
     public static void register(IEventBus eventbus) {
