@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_overworld",
+  "features": "randomadditions:cracked_stone_vein_upper",
+  "step": "underground_ores"
+}

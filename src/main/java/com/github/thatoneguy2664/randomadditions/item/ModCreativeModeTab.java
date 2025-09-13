@@ -40,6 +40,7 @@ public class ModCreativeModeTab {
                         output.accept(ModBlocks.DYED_PLANKS_WHITE);
                         output.accept(ModBlocks.DYED_PLANKS_YELLOW);
                         output.accept(ModBlocks.CRACKED_STONE);
+                        output.accept(ModItems.TACO);
                     }).build());
 
     public static void register(IEventBus eventbus) {
