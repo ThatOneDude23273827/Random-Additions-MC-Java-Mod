@@ -44,6 +44,8 @@ public class ModCreativeModeTab {
                         output.accept(ModItems.COPPER_COIN);
                         output.accept(ModItems.GOLD_COIN);
                         output.accept(ModItems.DIAMOND_COIN);
+                        output.accept(ModBlocks.COPPER_BARS_FRESH_WAXED);
+                        output.accept(ModBlocks.COPPER_CHAIN_FRESH);
                     }).build());
 
     public static void register(IEventBus eventbus) {

@@ -3,7 +3,8 @@ package com.github.thatoneguy2664.randomadditions;
 import com.github.thatoneguy2664.randomadditions.block.ModBlocks;
 import com.github.thatoneguy2664.randomadditions.item.ModCreativeModeTab;
 import com.github.thatoneguy2664.randomadditions.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

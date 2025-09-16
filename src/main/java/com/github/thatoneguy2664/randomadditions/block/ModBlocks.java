@@ -3,8 +3,11 @@ package com.github.thatoneguy2664.randomadditions.block;
 import com.github.thatoneguy2664.randomadditions.RandomAdditions;
 import com.github.thatoneguy2664.randomadditions.item.ModItems;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.ChainBlock;
+import net.minecraft.world.level.block.IronBarsBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,7 +23,10 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .explosionResistance(1200f)
+                    .destroyTime(50f)
                     .requiresCorrectToolForDrops()
+                    .mapColor(MapColor.COLOR_BLACK)
                     .sound(SoundType.NETHERITE_BLOCK));
 
     public static final DeferredBlock<Block> DYED_PLANKS_BLACK = registerBlock(
@@ -28,6 +34,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_BLACK)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_BLUE = registerBlock(
@@ -35,6 +43,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_BLUE)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_BROWN = registerBlock(
@@ -42,6 +52,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_BROWN)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_CYAN = registerBlock(
@@ -49,6 +61,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_CYAN)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_GRAY = registerBlock(
@@ -56,6 +70,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_GRAY)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_GREEN = registerBlock(
@@ -63,6 +79,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_GREEN)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_LIGHTBLUE = registerBlock(
@@ -70,6 +88,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_LIGHT_BLUE)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_LIGHTGRAY = registerBlock(
@@ -77,6 +97,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_LIGHT_GRAY)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_LIME = registerBlock(
@@ -84,6 +106,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_LIGHT_GREEN)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_MAGENTA = registerBlock(
@@ -91,6 +115,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_MAGENTA)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_ORANGE = registerBlock(
@@ -98,6 +124,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_ORANGE)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_PINK = registerBlock(
@@ -105,6 +133,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_PINK)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_PURPLE = registerBlock(
@@ -112,6 +142,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_PURPLE)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_RED = registerBlock(
@@ -119,6 +151,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_RED)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_WHITE = registerBlock(
@@ -126,6 +160,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.SNOW)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> DYED_PLANKS_YELLOW = registerBlock(
@@ -133,6 +169,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .strength(2f)
+                    .ignitedByLava()
+                    .mapColor(MapColor.COLOR_YELLOW)
                     .sound(SoundType.WOOD));
 
     public static final DeferredBlock<Block> CRACKED_STONE = registerBlock(
@@ -141,8 +179,59 @@ public class ModBlocks {
             BlockBehaviour.Properties.of()
                     .strength(2f)
                     .requiresCorrectToolForDrops()
+                    .mapColor(MapColor.STONE)
                     .sound(SoundType.STONE));
 
+    public static final DeferredBlock<Block> COPPER_CHEST_FRESH = registerBlock(
+            "copper_chest_fresh",
+            Block::new,
+            BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.COPPER));
+
+    public static final DeferredBlock<Block> COPPER_CHEST_EXPOSED = registerBlock(
+            "copper_chest_exposed",
+            Block::new,
+            BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.COPPER));
+
+    public static final DeferredBlock<Block> COPPER_CHEST_WEATHERED = registerBlock(
+            "copper_chest_weathered",
+            Block::new,
+            BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.COPPER));
+
+    public static final DeferredBlock<Block> COPPER_CHEST_OXIDIZED = registerBlock(
+            "copper_chest_oxidized",
+            Block::new,
+            BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.COPPER));
+
+    public static final DeferredBlock<Block> COPPER_BARS_FRESH_WAXED = registerBlock(
+            "copper_bars_fresh_waxed",
+            IronBarsBlock::new,
+            BlockBehaviour.Properties.of()
+                    .strength(5f,6f)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .sound(SoundType.COPPER));
+
+    public static final DeferredBlock<Block> COPPER_CHAIN_FRESH = registerBlock(
+            "copper_chain_fresh",
+            ChainBlock::new,
+            BlockBehaviour.Properties.of()
+                    .strength(5f,6f)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .forceSolidOn()
+                    .sound(SoundType.CHAIN));
 
     private static <B extends Block> DeferredBlock<B> registerBlock(String name, Function<BlockBehaviour.Properties, ? extends B> blockFactory, BlockBehaviour.Properties blockProperties) {
         DeferredBlock<B> block = BLOCKS.registerBlock(name, blockFactory, blockProperties);

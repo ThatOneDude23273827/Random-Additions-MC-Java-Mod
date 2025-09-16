@@ -2,7 +2,7 @@
   "item.randomadditions.gilded_netherite_ingot": "Gilded Netherite Ingot",
   "item.randomadditions.taco": "Taco",
   "item.randomadditions.copper_coin": "Copper Coin",
-  "item.randomadditions.gold": "Gold Coin",
+  "item.randomadditions.gold_coin": "Gold Coin",
   "item.randomadditions.diamond_coin": "Diamond Coin",
 
   "block.randomadditions.gilded_netherite_block": "Gilded Netherite Block",
@@ -23,6 +23,11 @@
   "block.randomadditions.dyed_planks_white": "White Dyed Planks",
   "block.randomadditions.dyed_planks_yellow": "Yellow Dyed Planks",
   "block.randomadditions.cracked_stone": "Cracked Stone",
+  "block.randomadditions.copper_chest_fresh": "Copper Chest",
+  "block.randomadditions.copper_chest_exposed": "Exposed Copper Chest",
+  "block.randomadditions.copper_chest_weathered": "Weathered Copper Chest",
+  "block.randomadditions.copper_chest_oxidized": "Oxidized Copper Chest",
+  "block.randomadditions.copper_bars_fresh_waxed": "Waxed Copper Bars",
 
   "creativetab.randomadditions.all": "Random Additions"
 }
