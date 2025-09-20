@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "randomadditions:block/copper_chain_fresh",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "randomadditions:block/copper_chain_fresh"
+    },
+    "axis=z": {
+      "model": "randomadditions:block/copper_chain_fresh",
+      "x": 90
+    }
+  }
+}

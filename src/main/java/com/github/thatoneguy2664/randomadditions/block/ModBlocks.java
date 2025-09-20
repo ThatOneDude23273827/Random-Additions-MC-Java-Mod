@@ -223,8 +223,8 @@ public class ModBlocks {
                     .noOcclusion()
                     .sound(SoundType.COPPER));
 
-    public static final DeferredBlock<Block> COPPER_CHAIN_FRESH = registerBlock(
-            "copper_chain_fresh",
+    public static final DeferredBlock<Block> COPPER_CHAIN_FRESH_WAXED = registerBlock(
+            "copper_chain_fresh_waxed",
             ChainBlock::new,
             BlockBehaviour.Properties.of()
                     .strength(5f,6f)
